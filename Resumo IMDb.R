@@ -2,7 +2,6 @@ library(tidyverse)
 library(rvest)
 
 
-
 Find_movie <- function(movie){
   #Arruma o nome do filme caso tenha espaço
   if(movie %>% grepl(" ", ., fixed=T)){
